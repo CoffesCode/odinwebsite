@@ -3,70 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Site de Teste</title>
+    <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <div class="container">
-            <nav>
+            <div class="navbar">
                 <a href="/" class="logo">Header Logo</a>
-                
-                <ul class="nav-links">
-                    <li><a href="#">Header link one</a></li>
-                    <li><a href="#">Header link two</a></li>
-                    <li><a href="#">Header link three</a></li>
-                </ul>
-            </nav>
+                    <ol class="nav-links">
+                        <li><a href="x">Header link one</a></li>
+                        <li><a href="x">Header link two</a></li>
+                        <li><a href="x">Header link three</a></li>
+                    </ol>
+            </div>
+            <div class="hero-father">
+                <div class="hero">
+                    <h1 class="this">This website is awesome</h1>
+                    <p class="text1">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast
+                Sign up</p>
+                    <a href="X" class="button">Sign up</a>
+                </div>
+                <img src="/images/beach.png" alt="Palm trees">
+            </div>
         </div>
     </header>
-    
     <main>
-        <div class="hero">
-            <section class="container">
-                <div class="hero-text">
-                    <h1>This website is awesome</h1>
-                    <p>This website has some subtext tha goes here under the main title. It's a smaller font and the color is lower contrast.</p>
-                    <a href="#" class="button">Sign Up</a>
+        <h1 class="info">Some random information.</h1>
+        <div class="cards">
+            <article class="card">
+                <div class="card-image"></div>
+                <p>this is some subtext under an illustration or image</p>
+            </article>
+            <article class="card">
+                <div class="card-image"></div>
+                <p>this is some subtext under an illustration or image</p>
+            </article>
+            <article class="card">
+                <div class="card-image"></div>
+                <p>this is some subtext under an illustration or image</p>
+            </article>
+            <article class="card">
+                <div class="card-image"></div>
+                <p>this is some subtext under an illustration or image</p>
+            </article>
+        </div>
+        <article class="quote">
+            <p class="thor">This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</p>
+            <p class="thor-name">-Thor, God of Thunder.</p>
+        </article>
+        <section class="call-to-action">
+            <div class="blue-card">
+
+                <div class="cta-text">
+                    <h1>Call to action! It's time!</h1>
+                    <p>Sign up for our product by clicking that button right over there!</p>
                 </div>
-                <img src="/images/mountains.png" alt="mountains photography">
-            </section>
-        </div>
 
-        <div class="information">
-            <section class="container">
-                <h1>some random information.</h1>
-                    <div class="cards">
-                        <div class="card">
-                            <div class="square"></div>
-                            <p>this is some subtext under an illustration or image</p>
-                        </div>
-                        <div class="card">
-                            <div class="square"></div>
-                            <p>this is some subtext under an illustration or image</p>
-                        </div>
-                        <div class="card">
-                            <div class="square"></div>
-                            <p>this is some subtext under an illustration or image</p>
-                        </div>
-                        <div class="card">
-                            <div class="square"></div>
-                            <p>this is some subtext under an illustration or image</p>
-                        </div>
-                    </div>
-            </section>
-        </div>
+                <a href="#" class="button2">Sign up</a>
 
-    
-
-        
-
+            </div>
+        </section>
+        <article class="end">
+            <div class="copyright">Copyright © The Odin Project 2021</div>
+        </article>
     </main>
-
-
 
 </body>
 </html>
