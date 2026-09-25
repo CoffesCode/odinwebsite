@@ -78,6 +78,10 @@ img {
     object-fit: cover;
 }
 
+figcaption {
+    color: #adadad;
+}
+
 .button {
     display: inline-block;
     background-color: #3882F6;
